@@ -5,10 +5,10 @@ export function Footer() {
         <div className="grid grid-cols-12 gap-8">
           <div className="col-span-12 md:col-span-6">
             <p className="wordmark text-foreground">
-              Branded Living <span className="text-bronze">EU</span>
+              Branded Living <span className="text-bronze">CE</span>
             </p>
             <p className="mt-4 text-sm text-taupe max-w-md leading-relaxed">
-              Strategic advisory for branded living, branded residences and residential value creation.
+              Strategic advisory for branded living, branded residences and residential value creation across Central Europe.
             </p>
           </div>
 
@@ -26,7 +26,7 @@ export function Footer() {
         </div>
 
         <div className="mt-16 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-3">
-          <span className="text-xs text-taupe">© {new Date().getFullYear()} Branded Living EU. All rights reserved.</span>
+          <span className="text-xs text-taupe">© {new Date().getFullYear()} Branded Living CE. All rights reserved.</span>
           <span className="text-xs text-taupe italic font-serif">— a coherent thread</span>
         </div>
       </div>

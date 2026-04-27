@@ -17,23 +17,23 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         title:
-          "Branded Living EU | Strategic Advisory for Branded Living & Residential Value Creation",
+          "Branded Living CE | Strategic Advisory for Branded Living & Residential Value Creation",
       },
       {
         name: "description",
         content:
-          "Strategic advisory for branded living, branded residences, premium residential development and residential value creation across Europe.",
+          "Strategic advisory for branded living, branded residences and premium residential projects across Central Europe — earlier clarity, stronger alignment, more coherent market propositions.",
       },
       {
         name: "keywords",
         content:
-          "branded living, branded residences, residential value creation, premium residential development, real estate advisory, design-led strategy, project positioning, concept coherence, European real estate, Central Europe, brand partnerships",
+          "branded living, branded residences, residential value creation, premium residential development, real estate advisory, design-led strategy, project positioning, concept coherence, Central European real estate, brand partnerships",
       },
-      { property: "og:title", content: "Branded Living EU | Strategic Advisory" },
+      { property: "og:title", content: "Branded Living CE | Strategic Advisory" },
       {
         property: "og:description",
         content:
-          "Strategic advisory for branded living, branded residences and premium residential development across Europe.",
+          "Strategic advisory for branded living, branded residences and premium residential projects across Central Europe.",
       },
       { property: "og:type", content: "website" },
     ],

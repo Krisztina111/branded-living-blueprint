@@ -4,19 +4,22 @@ export function Europe() {
       <div className="mx-auto max-w-[1400px] px-6 md:px-12">
         <div className="grid grid-cols-12 gap-8 md:gap-12 items-start">
           <div className="col-span-12 md:col-span-7">
-            <span className="eyebrow">Europe — 007</span>
-            <h2 className="mt-8 font-serif text-3xl md:text-5xl lg:text-[3.6rem] leading-[1.08] text-foreground max-w-[20ch]">
-              Europe is not <span className="italic text-bronze">one market.</span>
+            <span className="eyebrow">Region — 007</span>
+            <h2 className="mt-8 font-serif text-3xl md:text-5xl lg:text-[3.6rem] leading-[1.08] text-foreground max-w-[22ch]">
+              The Central European <span className="italic text-bronze">opportunity.</span>
             </h2>
 
             <p className="mt-10 text-base md:text-lg text-foreground/80 leading-relaxed max-w-[56ch]">
-              Premium expectations, buyer psychology, service maturity, development culture and the very meaning of luxury shift from city to city — sometimes from district to district.
+              Central Europe is still an emerging branded residential landscape. The opportunity is not simply to import hospitality logic into housing.
             </p>
             <p className="mt-6 text-base md:text-lg text-foreground/80 leading-relaxed max-w-[56ch]">
-              Branded Living EU brings a strategic, commercially grounded view to this landscape, with particular sensitivity to Central European realities and the still-emerging branded living models shaping the region.
+              It is to shape stronger residential propositions — with clearer positioning, more disciplined alignment and, where relevant, service standards informed by hospitality.
             </p>
-            <p className="mt-6 text-base md:text-lg text-foreground/80 leading-relaxed max-w-[56ch] italic font-serif">
-              In markets where the branded residential language is still evolving, coherence matters even more.
+            <p className="mt-6 text-base md:text-lg text-foreground/80 leading-relaxed max-w-[56ch]">
+              That makes the region especially sensitive to clarity. In markets where the branded residential language is still evolving, coherence matters even more.
+            </p>
+            <p className="mt-8 font-serif italic text-xl md:text-2xl text-foreground max-w-[28ch] leading-snug">
+              Not as decoration. <span className="text-bronze">As structure.</span>
             </p>
           </div>
 
@@ -27,14 +30,14 @@ export function Europe() {
               <div className="absolute inset-y-0 left-1/2 w-px bg-foreground/15" />
 
               {[
-                { city: "Vienna", x: "52%", y: "40%" },
-                { city: "Berlin", x: "44%", y: "20%" },
-                { city: "Prague", x: "48%", y: "32%" },
-                { city: "Budapest", x: "60%", y: "44%" },
-                { city: "Warsaw", x: "58%", y: "22%" },
-                { city: "Milan", x: "32%", y: "56%" },
-                { city: "Paris", x: "20%", y: "32%" },
-                { city: "Lisbon", x: "12%", y: "70%" },
+                { city: "Vienna", x: "44%", y: "52%" },
+                { city: "Prague", x: "40%", y: "38%" },
+                { city: "Berlin", x: "36%", y: "22%" },
+                { city: "Warsaw", x: "58%", y: "26%" },
+                { city: "Budapest", x: "56%", y: "58%" },
+                { city: "Bratislava", x: "50%", y: "48%" },
+                { city: "Bucharest", x: "70%", y: "66%" },
+                { city: "Ljubljana", x: "38%", y: "64%" },
               ].map((c) => (
                 <div
                   key={c.city}
@@ -46,7 +49,7 @@ export function Europe() {
                 </div>
               ))}
               <span className="absolute bottom-3 right-4 text-[0.6rem] tracking-[0.2em] uppercase text-taupe">
-                Fig. 002 · Geography
+                Fig. 002 · Region
               </span>
             </div>
           </div>

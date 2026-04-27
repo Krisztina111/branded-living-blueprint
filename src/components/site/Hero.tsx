@@ -8,7 +8,7 @@ export function Hero() {
             <div className="flex items-center gap-4 mb-10">
               <span className="eyebrow">001 — Advisory</span>
               <span className="h-px w-16 bg-foreground/30" />
-              <span className="eyebrow">Europe</span>
+              <span className="eyebrow">Central Europe</span>
             </div>
 
             <h1 className="font-serif text-[2.6rem] sm:text-[3.4rem] md:text-[4.2rem] lg:text-[4.8rem] leading-[1.02] tracking-[-0.015em] text-foreground max-w-[20ch]">
@@ -47,7 +47,7 @@ export function Hero() {
               <div className="hero-thread" aria-hidden />
 
               <div className="hero-marker" style={{ top: "5%", left: "5%" }}>
-                BL — EU / 2026
+                BL — CE / 2026
               </div>
               <div className="hero-marker" style={{ bottom: "5%", left: "5%" }}>
                 Fig. 001 · Threshold
