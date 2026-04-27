@@ -6,14 +6,17 @@ export function Europe() {
           <div className="col-span-12 md:col-span-7">
             <span className="eyebrow">Europe — 007</span>
             <h2 className="mt-8 font-serif text-3xl md:text-5xl lg:text-[3.6rem] leading-[1.08] text-foreground max-w-[20ch]">
-              Built for European <span className="italic text-bronze">complexity.</span>
+              Europe is not <span className="italic text-bronze">one market.</span>
             </h2>
 
             <p className="mt-10 text-base md:text-lg text-foreground/80 leading-relaxed max-w-[56ch]">
-              Europe is not one market. Premium expectations, buyer psychology, service maturity, development culture and the meaning of luxury differ from city to city.
+              Premium expectations, buyer psychology, service maturity, development culture and the very meaning of luxury shift from city to city — sometimes from district to district.
             </p>
             <p className="mt-6 text-base md:text-lg text-foreground/80 leading-relaxed max-w-[56ch]">
-              Branded Living EU brings a strategic, commercially grounded view to this landscape, with particular sensitivity to Central European realities and emerging branded living models.
+              Branded Living EU brings a strategic, commercially grounded view to this landscape, with particular sensitivity to Central European realities and the still-emerging branded living models shaping the region.
+            </p>
+            <p className="mt-6 text-base md:text-lg text-foreground/80 leading-relaxed max-w-[56ch] italic font-serif">
+              In markets where the branded residential language is still evolving, coherence matters even more.
             </p>
           </div>
 

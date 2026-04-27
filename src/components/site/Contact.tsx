@@ -20,7 +20,7 @@ export function Contact() {
               className="font-serif text-4xl md:text-6xl lg:text-[5rem] leading-[1.05] max-w-[22ch]"
               style={{ color: "oklch(0.957 0.012 84)" }}
             >
-              Start before the project becomes{" "}
+              Let's discuss your project — before it becomes{" "}
               <span className="italic" style={{ color: "oklch(0.685 0.085 55)" }}>fixed.</span>
             </h2>
 
@@ -28,7 +28,7 @@ export function Contact() {
               className="mt-12 text-lg md:text-xl max-w-[52ch] leading-relaxed font-light"
               style={{ color: "oklch(0.852 0.022 75)" }}
             >
-              For early-stage advisory, concept review, project positioning or branded living strategy, get in touch.
+              For early-stage advisory, concept review, project positioning or branded living strategy across Europe — we work best when there is still room to influence the outcome.
             </p>
 
             <div className="mt-16 grid md:grid-cols-2 gap-10 max-w-2xl">
@@ -72,7 +72,7 @@ export function Contact() {
                 color: "oklch(0.215 0.012 50)",
               }}
             >
-              Contact Branded Living EU
+              Begin the conversation
               <span>→</span>
             </a>
           </div>

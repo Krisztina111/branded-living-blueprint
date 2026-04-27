@@ -22,15 +22,43 @@ export function KeyBelief() {
             >
               Coherence is not decoration.{" "}
               <span className="italic" style={{ color: "oklch(0.685 0.085 55)" }}>
-                It is a commercial asset.
+                It is structure.
               </span>
             </h2>
             <p
               className="mt-12 text-lg md:text-xl max-w-[56ch] leading-relaxed font-light"
               style={{ color: "oklch(0.852 0.022 75)" }}
             >
-              A project can be beautifully built and still feel unclear. The value gap often appears when good decisions are made separately, without a strong enough thread connecting them.
+              A project can be beautifully built and still feel unclear. The value gap appears when good decisions are made separately, without a strong enough thread connecting them.
             </p>
+
+            {/* "Call us when..." rhythmic block */}
+            <div className="mt-20 pt-10 border-t" style={{ borderColor: "oklch(0.685 0.085 55 / 0.3)" }}>
+              <span
+                className="eyebrow block mb-10"
+                style={{ color: "oklch(0.685 0.085 55)" }}
+              >
+                Call us when —
+              </span>
+              <div className="grid md:grid-cols-2 gap-x-12 gap-y-6 max-w-4xl">
+                {[
+                  "you need clearer positioning",
+                  "you need stronger coherence",
+                  "you need earlier decision clarity",
+                  "you need more defensible value",
+                  "you need stronger internal alignment",
+                  "the project feels premium, but the market logic is not yet clear",
+                ].map((line) => (
+                  <p
+                    key={line}
+                    className="font-serif italic text-xl md:text-2xl leading-snug"
+                    style={{ color: "oklch(0.957 0.012 84)" }}
+                  >
+                    — {line}.
+                  </p>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>

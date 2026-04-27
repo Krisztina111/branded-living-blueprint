@@ -1,23 +1,23 @@
 const blocks = [
   {
     no: "A",
-    title: "Project positioning",
-    body: "Clarifying the project's market role, buyer promise and strategic narrative.",
+    title: "Project Review",
+    body: "For projects that already exist, but need clearer positioning, stronger differentiation or a more legible value logic.",
   },
   {
     no: "B",
-    title: "Branded living strategy",
-    body: "Translating brand meaning into a credible residential experience.",
+    title: "Strategic Alignment",
+    body: "For projects that need earlier clarity across concept, buyer logic, design direction and commercial intent.",
   },
   {
     no: "C",
-    title: "Concept coherence",
-    body: "Aligning design intent, service layer, material direction, buyer perception and commercial logic.",
+    title: "Branded Living Strategy",
+    body: "Translating brand meaning into a credible residential experience — not as decoration, as structure.",
   },
   {
     no: "D",
-    title: "Value creation review",
-    body: "Identifying early misalignments that may later affect pricing confidence, absorption, investor clarity or long-term asset value.",
+    title: "Ongoing Advisory",
+    body: "A consistent thread as decisions move across teams, stages and disciplines. For projects that cannot afford drift.",
   },
 ];
 
@@ -25,10 +25,12 @@ export function AdvisoryFocus() {
   return (
     <section id="work" className="py-24 md:py-40 bg-secondary/40">
       <div className="mx-auto max-w-[1400px] px-6 md:px-12">
-        <div className="flex items-baseline justify-between mb-16 md:mb-24">
-          <h2 className="font-serif text-3xl md:text-5xl text-foreground">Where we work</h2>
-          <span className="eyebrow hidden md:block">Focus — 003</span>
+        <div className="flex items-baseline justify-between mb-6">
+          <span className="eyebrow">Focus — 003</span>
         </div>
+        <h2 className="font-serif text-3xl md:text-5xl lg:text-[3.6rem] leading-[1.08] text-foreground max-w-[24ch] mb-16 md:mb-24">
+          A focused set of advisory formats for projects that need <span className="italic text-bronze">earlier clarity.</span>
+        </h2>
 
         <div className="border-t border-foreground/20">
           {blocks.map((b) => (
