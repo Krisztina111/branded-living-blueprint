@@ -1,26 +1,63 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Header } from "@/components/site/Header";
+import { Hero } from "@/components/site/Hero";
+import { Perspective } from "@/components/site/Perspective";
+import { AdvisoryFocus } from "@/components/site/AdvisoryFocus";
+import { KeyBelief } from "@/components/site/KeyBelief";
+import { WhyItMatters } from "@/components/site/WhyItMatters";
+import { BrandedResidences } from "@/components/site/BrandedResidences";
+import { Europe } from "@/components/site/Europe";
+import { Clients } from "@/components/site/Clients";
+import { Founder } from "@/components/site/Founder";
+import { Contact } from "@/components/site/Contact";
+import { Footer } from "@/components/site/Footer";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      {
+        title:
+          "Branded Living EU | Strategic Advisory for Branded Living & Residential Value Creation",
+      },
+      {
+        name: "description",
+        content:
+          "Strategic advisory for branded living, branded residences, premium residential development and residential value creation across Europe.",
+      },
+      {
+        name: "keywords",
+        content:
+          "branded living, branded residences, residential value creation, premium residential development, real estate advisory, design-led strategy, project positioning, concept coherence, European real estate, Central Europe, brand partnerships",
+      },
+      { property: "og:title", content: "Branded Living EU | Strategic Advisory" },
+      {
+        property: "og:description",
+        content:
+          "Strategic advisory for branded living, branded residences and premium residential development across Europe.",
+      },
+      { property: "og:type", content: "website" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
+function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background text-foreground">
+      <Header />
+      <main>
+        <Hero />
+        <Perspective />
+        <AdvisoryFocus />
+        <KeyBelief />
+        <WhyItMatters />
+        <BrandedResidences />
+        <Europe />
+        <Clients />
+        <Founder />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
 }
