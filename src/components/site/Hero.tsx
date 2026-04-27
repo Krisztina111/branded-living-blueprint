@@ -12,15 +12,15 @@ export function Hero() {
             </div>
 
             <h1 className="font-serif text-[2.6rem] sm:text-[3.4rem] md:text-[4.2rem] lg:text-[4.8rem] leading-[1.02] tracking-[-0.015em] text-foreground max-w-[20ch]">
-              Residential value <span className="italic text-bronze">starts</span> before the visible work begins.
+              Every strong project starts with a <span className="italic text-bronze">clear thread.</span>
             </h1>
 
             <p className="mt-10 text-lg md:text-xl text-foreground/80 max-w-[44ch] leading-relaxed font-light">
-              Strategic advisory for branded living, branded residences and premium residential concepts across Europe.
+              Coherence creates value. We shape branded living and premium residential projects at the point where positioning, concept and commercial logic still have room to influence the outcome.
             </p>
 
             <p className="mt-6 text-base text-taupe max-w-[52ch] leading-relaxed">
-              We help developers, investors and brands align concept, positioning, design intent and market promise — before key decisions become expensive to change.
+              For developers, investors and brands across Europe — before key decisions become expensive to change.
             </p>
 
             <div className="mt-12 flex flex-wrap items-center gap-8">
@@ -28,21 +28,20 @@ export function Hero() {
                 href="#contact"
                 className="group inline-flex items-center gap-3 bg-foreground text-background px-7 py-4 text-[0.72rem] tracking-[0.22em] uppercase hover:bg-umber transition-colors"
               >
-                Start the conversation
+                Discuss your project
                 <span className="transition-transform group-hover:translate-x-1">→</span>
               </a>
               <a
                 href="#perspective"
                 className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground border-b border-foreground/40 pb-1 hover:border-bronze hover:text-bronze transition-colors"
               >
-                Explore the perspective
+                Read the perspective
               </a>
             </div>
           </div>
 
           {/* Right — abstract identity visual */}
           <div className="col-span-12 lg:col-span-5">
-            {/* Replace .hero-block background with a real cropped architectural image when ready */}
             <div className="hero-identity-visual">
               <div className="hero-block" aria-hidden />
               <div className="hero-thread" aria-hidden />
