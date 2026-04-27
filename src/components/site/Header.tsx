@@ -10,7 +10,7 @@ export function Header() {
     <header className="sticky top-0 z-50 backdrop-blur-sm bg-background/80 border-b border-border">
       <div className="mx-auto max-w-[1400px] px-6 md:px-12 py-5 flex items-center justify-between">
         <a href="#top" className="wordmark text-foreground">
-          Branded Living <span className="text-bronze">EU</span>
+          Branded Living <span className="text-bronze">CE</span>
         </a>
         <nav className="hidden md:flex items-center gap-10">
           {nav.map((item) => (

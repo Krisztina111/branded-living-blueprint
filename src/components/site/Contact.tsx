@@ -28,7 +28,7 @@ export function Contact() {
               className="mt-12 text-lg md:text-xl max-w-[52ch] leading-relaxed font-light"
               style={{ color: "oklch(0.852 0.022 75)" }}
             >
-              For early-stage advisory, concept review, project positioning or branded living strategy across Europe — we work best when there is still room to influence the outcome.
+              For residential and branded living projects across Central Europe that need earlier clarity, stronger alignment and a more coherent market proposition.
             </p>
 
             <div className="mt-16 grid md:grid-cols-2 gap-10 max-w-2xl">
@@ -40,11 +40,11 @@ export function Contact() {
                   Email
                 </span>
                 <a
-                  href="mailto:hello@brandedliving.eu"
+                  href="mailto:hello@brandedlivingce.com"
                   className="mt-3 block font-serif text-2xl md:text-3xl hover:opacity-70 transition-opacity"
                   style={{ color: "oklch(0.957 0.012 84)" }}
                 >
-                  hello@brandedliving.eu
+                  hello@brandedlivingce.com
                 </a>
               </div>
               <div>
@@ -65,14 +65,14 @@ export function Contact() {
             </div>
 
             <a
-              href="mailto:hello@brandedliving.eu"
+              href="mailto:hello@brandedlivingce.com"
               className="mt-16 inline-flex items-center gap-3 px-8 py-4 text-[0.72rem] tracking-[0.22em] uppercase transition-colors"
               style={{
                 backgroundColor: "oklch(0.957 0.012 84)",
                 color: "oklch(0.215 0.012 50)",
               }}
             >
-              Begin the conversation
+              Discuss your project
               <span>→</span>
             </a>
           </div>
