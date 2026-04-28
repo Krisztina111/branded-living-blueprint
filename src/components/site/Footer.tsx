@@ -1,8 +1,13 @@
 export function Footer() {
   return (
-    <footer className="py-16 border-t border-border">
+    <footer className="pt-20 pb-16 border-t border-border">
       <div className="mx-auto max-w-[1400px] px-6 md:px-12">
-        <div className="grid grid-cols-12 gap-8">
+        <p className="font-serif text-2xl md:text-3xl text-foreground/85 max-w-[28ch] leading-snug">
+          Coherence <span className="italic text-bronze">creates value.</span>
+        </p>
+        <div className="mt-4 h-px w-12 bg-bronze/70" />
+
+        <div className="mt-16 grid grid-cols-12 gap-8">
           <div className="col-span-12 md:col-span-6">
             <p className="wordmark text-foreground">
               Branded Living <span className="text-bronze">CE</span>
@@ -27,7 +32,7 @@ export function Footer() {
 
         <div className="mt-16 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-3">
           <span className="text-xs text-taupe">© {new Date().getFullYear()} Branded Living CE. All rights reserved.</span>
-          <span className="text-xs text-taupe italic font-serif">, a coherent thread</span>
+          <span className="text-xs text-taupe italic font-serif">a coherent thread</span>
         </div>
       </div>
     </footer>
