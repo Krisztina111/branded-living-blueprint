@@ -50,7 +50,7 @@ export function AdvisoryFocus() {
           {blocks.map((b) => (
             <article
               key={b.no}
-              className="group relative p-8 md:p-10 border border-foreground/15 bg-background/70 backdrop-blur-sm hover:border-bronze/60 transition-colors"
+              className="group relative p-8 md:p-10 border border-foreground/15 bg-background/70 backdrop-blur-sm transition-all duration-300 ease-out hover:border-bronze/70 hover:-translate-y-1 hover:bg-background/85"
             >
               <span className="font-serif italic text-bronze text-sm tracking-widest">{b.no}</span>
               <h3 className="mt-4 font-serif text-2xl md:text-[1.7rem] leading-tight text-foreground whitespace-pre-line">
