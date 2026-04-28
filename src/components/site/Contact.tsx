@@ -12,7 +12,7 @@ export function Contact() {
               className="eyebrow"
               style={{ color: "oklch(0.852 0.022 75)" }}
             >
-              Contact, 008
+              <span className="text-bronze">07</span> &nbsp;—&nbsp; Contact
             </span>
           </div>
           <div className="col-span-12 md:col-span-10">

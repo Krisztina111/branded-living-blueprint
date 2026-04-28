@@ -24,8 +24,11 @@ export function Europe() {
 
       <div className="relative mx-auto max-w-[1400px] px-6 md:px-12">
         <div className="md:ml-auto md:max-w-[640px]">
+          <p className="text-[0.6875rem] font-medium tracking-[0.22em] uppercase" style={{ color: "oklch(0.92 0.004 90 / 0.7)" }}>
+            <span className="text-bronze">02</span> &nbsp;—&nbsp; Central Europe
+          </p>
           <h2
-            className="font-serif text-4xl md:text-6xl lg:text-[4rem] leading-[1.05]"
+            className="mt-6 font-serif text-4xl md:text-6xl lg:text-[4rem] leading-[1.05]"
             style={{ color: "oklch(0.945 0.004 90)" }}
           >
             The Central Europe <span className="italic text-bronze">opportunity.</span>

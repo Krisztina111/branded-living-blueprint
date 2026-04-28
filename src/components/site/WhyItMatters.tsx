@@ -14,7 +14,8 @@ export function WhyItMatters() {
 
       <div className="relative mx-auto max-w-[1400px] px-6 md:px-12">
         <div className="max-w-[640px]">
-          <h2 className="font-serif text-4xl md:text-6xl lg:text-[4rem] leading-[1.05] text-foreground">
+          <p className="eyebrow"><span className="text-bronze">03</span> &nbsp;—&nbsp; For Whom</p>
+          <h2 className="mt-6 font-serif text-4xl md:text-6xl lg:text-[4rem] leading-[1.05] text-foreground">
             You might be our <span className="italic text-bronze">client if…</span>
           </h2>
 
