@@ -1,6 +1,8 @@
 import clientInterior from "@/assets/client-fix-interior-image.png";
+import { useReveal } from "@/hooks/use-reveal";
 
 export function WhyItMatters() {
+  const ref = useReveal<HTMLDivElement>();
   return (
     <section className="relative py-32 md:py-48 overflow-hidden">
       <img
