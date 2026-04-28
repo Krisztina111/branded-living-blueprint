@@ -1,6 +1,8 @@
 import ceAerial from "@/assets/ce-aerial-image.jpg";
+import { useReveal } from "@/hooks/use-reveal";
 
 export function Europe() {
+  const ref = useReveal<HTMLDivElement>();
   return (
     <section
       id="europe"
