@@ -18,7 +18,7 @@ const blocks = [
   },
   {
     no: "04",
-    title: "Residential Brand & Market Positioning",
+    title: "Residential Brand &\nMarket Positioning",
     body: "For premium residential and branded living projects that need a clear position in the market, a credible buyer narrative and a coherent brand language across naming, visual codes and sales materials, aligned with the architectural intent and the lifestyle the address is meant to deliver.",
   },
 ];
@@ -52,7 +52,7 @@ export function AdvisoryFocus() {
               className="group relative p-8 md:p-10 border border-foreground/15 bg-background/70 backdrop-blur-sm hover:border-bronze/60 transition-colors"
             >
               <span className="font-serif italic text-bronze text-sm tracking-widest">{b.no}</span>
-              <h3 className="mt-4 font-serif text-2xl md:text-[1.7rem] leading-tight text-foreground">
+              <h3 className="mt-4 font-serif text-2xl md:text-[1.7rem] leading-tight text-foreground whitespace-pre-line">
                 {b.title}
               </h3>
               <p className="mt-5 text-base text-foreground/75 leading-relaxed">
