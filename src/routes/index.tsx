@@ -15,33 +15,33 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         title:
-          "Branded Living CE | Strategic Advisory for Branded Living & Residential Value Creation",
+          "Branded Living CE | Residential Advisory & Real Estate Value Creation",
       },
       {
         name: "description",
         content:
-          "Strategic advisory for branded living, branded residences and premium residential projects across Central Europe, earlier clarity, stronger alignment, more coherent market propositions.",
+          "Strategic residential advisory for branded residences, branded living and premium residential developments across Central Europe.",
       },
       {
         name: "keywords",
         content:
           "branded living, branded residences, residential value creation, premium residential development, real estate advisory, design-led strategy, project positioning, concept coherence, Central European real estate, brand partnerships",
       },
-      { property: "og:title", content: "Branded Living CE | Strategic Advisory" },
+      { property: "og:title", content: "Branded Living CE | Residential Advisory & Real Estate Value Creation" },
       {
         property: "og:description",
         content:
-          "Strategic advisory for branded living, branded residences and premium residential projects across Central Europe.",
+          "Strategic residential advisory for branded residences, branded living and premium residential developments across Central Europe.",
       },
       { property: "og:image", content: "https://brandedlivingce.com/og-image.jpg" },
       { property: "og:image:width", content: "1216" },
       { property: "og:image:height", content: "640" },
       { property: "og:url", content: "https://brandedlivingce.com/" },
-      { name: "twitter:title", content: "Branded Living CE | Strategic Advisory" },
+      { name: "twitter:title", content: "Branded Living CE | Residential Advisory & Real Estate Value Creation" },
       {
         name: "twitter:description",
         content:
-          "Strategic advisory for branded living, branded residences and premium residential projects across Central Europe.",
+          "Strategic residential advisory for branded residences, branded living and premium residential developments across Central Europe.",
       },
       { name: "twitter:image", content: "https://brandedlivingce.com/og-image.jpg" },
       { rel: "canonical", href: "https://brandedlivingce.com/" },
