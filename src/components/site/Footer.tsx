@@ -13,10 +13,10 @@ export function Footer() {
           </div>
 
           <div className="col-span-12 md:col-span-6 flex flex-wrap md:justify-end gap-x-10 gap-y-3 items-start">
-            <a href="#" className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors">
+            <a href="/privacy" className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors">
               Privacy Policy
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors">
+            <a href="https://www.linkedin.com/in/krisztina-szabo-vedress/" target="_blank" rel="noreferrer" className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors">
               LinkedIn
             </a>
             <a href="#contact" className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors">
@@ -27,7 +27,7 @@ export function Footer() {
 
         <div className="mt-16 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-3">
           <span className="text-xs text-taupe">© {new Date().getFullYear()} Branded Living CE. All rights reserved.</span>
-          <span className="text-xs text-taupe italic font-serif">— a coherent thread</span>
+          <span className="text-xs text-taupe italic font-serif">, a coherent thread</span>
         </div>
       </div>
     </footer>

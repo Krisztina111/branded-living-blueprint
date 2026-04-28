@@ -23,7 +23,7 @@ export function Clients() {
       <div className="mx-auto max-w-[1400px] px-6 md:px-12">
         <div className="flex items-baseline justify-between mb-16">
           <h2 className="font-serif text-3xl md:text-5xl text-foreground">Who this is for</h2>
-          <span className="eyebrow hidden md:block">Clients — 008</span>
+          <span className="eyebrow hidden md:block">Clients, 008</span>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-foreground/15 border border-foreground/15">

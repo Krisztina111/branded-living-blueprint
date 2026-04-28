@@ -40,7 +40,7 @@ export function KeyBelief() {
           ].map((line) => (
             <p
               key={line}
-              className="font-serif italic text-xl md:text-2xl leading-snug"
+              className="font-sans font-light text-lg md:text-xl leading-relaxed tracking-wide"
               style={{ color: "oklch(0.945 0.004 90)" }}
             >
               …{line}.

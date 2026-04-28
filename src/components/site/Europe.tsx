@@ -11,14 +11,14 @@ export function Europe() {
         src={ceAerial}
         alt=""
         aria-hidden
-        className="absolute inset-0 w-full h-full object-cover opacity-40"
+        className="absolute inset-0 w-full h-full object-cover opacity-75"
         loading="lazy"
       />
       <div
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(90deg, oklch(0.18 0.006 260 / 0.92) 0%, oklch(0.18 0.006 260 / 0.55) 60%, oklch(0.18 0.006 260 / 0.35) 100%)",
+            "linear-gradient(90deg, oklch(0.18 0.006 260 / 0.82) 0%, oklch(0.18 0.006 260 / 0.35) 55%, oklch(0.18 0.006 260 / 0.12) 100%)",
         }}
       />
 
