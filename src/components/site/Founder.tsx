@@ -1,6 +1,8 @@
 import founderPortrait from "@/assets/founder-portrait-final.png";
+import { useReveal } from "@/hooks/use-reveal";
 
 export function Founder() {
+  const ref = useReveal<HTMLDivElement>();
   return (
     <section id="founder" className="py-24 md:py-40 border-t border-border">
       <div className="mx-auto max-w-[1400px] px-6 md:px-12">
