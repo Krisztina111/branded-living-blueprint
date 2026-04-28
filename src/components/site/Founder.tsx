@@ -1,6 +1,8 @@
 import founderPortrait from "@/assets/founder-portrait-final.png";
+import { useReveal } from "@/hooks/use-reveal";
 
 export function Founder() {
+  const ref = useReveal<HTMLDivElement>();
   return (
     <section id="founder" className="py-24 md:py-40 border-t border-border">
       <div className="mx-auto max-w-[1400px] px-6 md:px-12">
@@ -16,7 +18,7 @@ export function Founder() {
             </div>
           </div>
 
-          <div className="md:col-span-7 md:pl-6 md:border-l md:border-bronze/40">
+          <div ref={ref} className="reveal md:col-span-7 md:pl-6 md:border-l md:border-bronze/40">
             <p className="eyebrow"><span className="text-bronze">06</span> &nbsp;—&nbsp; Founder</p>
             <h2 className="mt-6 font-serif text-4xl md:text-5xl lg:text-[3.6rem] leading-[1.05] text-foreground">
               Krisztina <span className="italic text-bronze">Szabó-Vedress</span>

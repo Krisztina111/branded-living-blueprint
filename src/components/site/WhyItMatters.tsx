@@ -1,6 +1,8 @@
 import clientInterior from "@/assets/client-fix-interior-image.png";
+import { useReveal } from "@/hooks/use-reveal";
 
 export function WhyItMatters() {
+  const ref = useReveal<HTMLDivElement>();
   return (
     <section className="relative py-32 md:py-48 overflow-hidden">
       <img
@@ -13,7 +15,7 @@ export function WhyItMatters() {
       <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/82 to-background/40" />
 
       <div className="relative mx-auto max-w-[1400px] px-6 md:px-12">
-        <div className="max-w-[640px]">
+        <div ref={ref} className="reveal max-w-[640px]">
           <p className="eyebrow"><span className="text-bronze">03</span> &nbsp;—&nbsp; For Whom</p>
           <h2 className="mt-6 font-serif text-4xl md:text-6xl lg:text-[4rem] leading-[1.05] text-foreground">
             You might be our <span className="italic text-bronze">client if…</span>

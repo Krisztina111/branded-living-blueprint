@@ -1,4 +1,7 @@
+import { useReveal } from "@/hooks/use-reveal";
+
 export function Contact() {
+  const ref = useReveal<HTMLDivElement>();
   return (
     <section
       id="contact"
@@ -6,7 +9,7 @@ export function Contact() {
       style={{ backgroundColor: "oklch(0.16 0.006 260)" }}
     >
       <div className="mx-auto max-w-[1400px] px-6 md:px-12">
-        <div className="grid grid-cols-12 gap-8 md:gap-12">
+        <div ref={ref} className="reveal grid grid-cols-12 gap-8 md:gap-12">
           <div className="col-span-12 md:col-span-2">
             <span
               className="eyebrow"

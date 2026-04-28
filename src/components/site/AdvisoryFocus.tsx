@@ -1,4 +1,5 @@
 import rolledPlans from "@/assets/rolled-plans-image.png";
+import { useReveal } from "@/hooks/use-reveal";
 
 const blocks = [
   {
@@ -24,6 +25,7 @@ const blocks = [
 ];
 
 export function AdvisoryFocus() {
+  const headRef = useReveal<HTMLDivElement>();
   return (
     <section id="work" className="relative py-32 md:py-48 overflow-hidden">
       <img
@@ -36,7 +38,7 @@ export function AdvisoryFocus() {
       <div className="absolute inset-0 bg-gradient-to-b from-background/75 via-background/65 to-background/80" />
 
       <div className="relative mx-auto max-w-[1400px] px-6 md:px-12">
-        <div className="max-w-[820px]">
+        <div ref={headRef} className="reveal max-w-[820px]">
           <p className="eyebrow"><span className="text-bronze">05</span> &nbsp;—&nbsp; Approach</p>
           <h2 className="mt-6 font-serif text-4xl md:text-6xl lg:text-[4.2rem] leading-[1.05] text-foreground">
             How we <span className="italic text-bronze">work.</span>
@@ -50,7 +52,7 @@ export function AdvisoryFocus() {
           {blocks.map((b) => (
             <article
               key={b.no}
-              className="group relative p-8 md:p-10 border border-foreground/15 bg-background/70 backdrop-blur-sm hover:border-bronze/60 transition-colors"
+              className="group relative p-8 md:p-10 border border-foreground/15 bg-background/70 backdrop-blur-sm transition-all duration-300 ease-out hover:border-bronze/70 hover:-translate-y-1 hover:bg-background/85"
             >
               <span className="font-serif italic text-bronze text-sm tracking-widest">{b.no}</span>
               <h3 className="mt-4 font-serif text-2xl md:text-[1.7rem] leading-tight text-foreground whitespace-pre-line">

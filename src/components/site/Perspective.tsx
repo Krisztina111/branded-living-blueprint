@@ -1,6 +1,8 @@
 import rolledPlans from "@/assets/rolled-plans-image.png";
+import { useReveal } from "@/hooks/use-reveal";
 
 export function Perspective() {
+  const ref = useReveal<HTMLDivElement>();
   return (
     <section
       id="perspective"
@@ -16,7 +18,7 @@ export function Perspective() {
       <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/85 to-background/40" />
 
       <div className="relative mx-auto max-w-[1400px] px-6 md:px-12">
-        <div className="max-w-[640px]">
+        <div ref={ref} className="reveal max-w-[640px]">
           <p className="eyebrow"><span className="text-bronze">01</span> &nbsp;—&nbsp; Concept</p>
           <h2 className="mt-6 font-serif text-4xl md:text-6xl lg:text-[4rem] leading-[1.05] text-foreground">
             Residential thinking, <span className="italic text-bronze">applied early.</span>
