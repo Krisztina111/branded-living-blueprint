@@ -52,7 +52,7 @@ export function AdvisoryFocus() {
               className="group relative p-8 md:p-10 border border-foreground/15 bg-background/70 backdrop-blur-sm hover:border-bronze/60 transition-colors"
             >
               <span className="font-serif italic text-bronze text-sm tracking-widest">{b.no}</span>
-              <h3 className="mt-4 font-serif text-2xl md:text-[1.7rem] leading-tight text-foreground">
+              <h3 className="mt-4 font-serif text-2xl md:text-[1.7rem] leading-tight text-foreground whitespace-pre-line">
                 {b.title}
               </h3>
               <p className="mt-5 text-base text-foreground/75 leading-relaxed">
