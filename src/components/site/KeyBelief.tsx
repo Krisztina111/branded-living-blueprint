@@ -11,14 +11,14 @@ export function KeyBelief() {
         src={callThread}
         alt=""
         aria-hidden
-        className="absolute inset-0 w-full h-full object-cover opacity-95"
+        className="absolute inset-0 w-full h-full object-cover opacity-70"
         loading="lazy"
       />
       <div
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse at center, oklch(0.16 0.006 260 / 0.15) 0%, oklch(0.16 0.006 260 / 0.7) 80%)",
+            "radial-gradient(ellipse at center, oklch(0.16 0.006 260 / 0.55) 0%, oklch(0.16 0.006 260 / 0.85) 80%)",
         }}
       />
 
