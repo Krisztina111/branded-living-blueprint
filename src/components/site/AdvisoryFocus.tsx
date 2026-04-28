@@ -25,6 +25,7 @@ const blocks = [
 ];
 
 export function AdvisoryFocus() {
+  const headRef = useReveal<HTMLDivElement>();
   return (
     <section id="work" className="relative py-32 md:py-48 overflow-hidden">
       <img
