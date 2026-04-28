@@ -17,7 +17,8 @@ export function Perspective() {
 
       <div className="relative mx-auto max-w-[1400px] px-6 md:px-12">
         <div className="max-w-[640px]">
-          <h2 className="font-serif text-4xl md:text-6xl lg:text-[4rem] leading-[1.05] text-foreground">
+          <p className="eyebrow"><span className="text-bronze">01</span> &nbsp;—&nbsp; Concept</p>
+          <h2 className="mt-6 font-serif text-4xl md:text-6xl lg:text-[4rem] leading-[1.05] text-foreground">
             Residential thinking, <span className="italic text-bronze">applied early.</span>
           </h2>
 
