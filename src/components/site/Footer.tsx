@@ -17,17 +17,17 @@ export function Footer() {
             </p>
           </div>
 
-          <div className="col-span-12 md:col-span-6 flex flex-wrap md:justify-end gap-x-10 gap-y-3 items-start">
-            <a href="/privacy" className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors">
+          <div className="col-span-12 md:col-span-6 flex flex-wrap md:flex-nowrap md:justify-end gap-x-6 lg:gap-x-8 gap-y-3 items-start">
+            <a href="/privacy" className="text-[0.68rem] lg:text-[0.72rem] tracking-[0.18em] lg:tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors whitespace-nowrap">
               Privacy Policy
             </a>
-            <a href="/imprint" className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors">
+            <a href="/imprint" className="text-[0.68rem] lg:text-[0.72rem] tracking-[0.18em] lg:tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors whitespace-nowrap">
               Legal Notice
             </a>
-            <a href="https://www.linkedin.com/in/krisztina-szabo-vedress/" target="_blank" rel="noreferrer" className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors">
+            <a href="https://www.linkedin.com/in/krisztina-szabo-vedress/" target="_blank" rel="noreferrer" className="text-[0.68rem] lg:text-[0.72rem] tracking-[0.18em] lg:tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors whitespace-nowrap">
               LinkedIn
             </a>
-            <a href="#contact" className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors">
+            <a href="#contact" className="text-[0.68rem] lg:text-[0.72rem] tracking-[0.18em] lg:tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors whitespace-nowrap">
               Contact
             </a>
           </div>
