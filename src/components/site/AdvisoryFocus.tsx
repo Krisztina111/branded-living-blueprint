@@ -37,7 +37,8 @@ export function AdvisoryFocus() {
 
       <div className="relative mx-auto max-w-[1400px] px-6 md:px-12">
         <div className="max-w-[820px]">
-          <h2 className="font-serif text-4xl md:text-6xl lg:text-[4.2rem] leading-[1.05] text-foreground">
+          <p className="eyebrow"><span className="text-bronze">05</span> &nbsp;—&nbsp; Approach</p>
+          <h2 className="mt-6 font-serif text-4xl md:text-6xl lg:text-[4.2rem] leading-[1.05] text-foreground">
             How we <span className="italic text-bronze">work.</span>
           </h2>
           <p className="mt-10 text-base md:text-lg text-foreground/80 max-w-[60ch] leading-relaxed">
@@ -55,6 +56,7 @@ export function AdvisoryFocus() {
               <h3 className="mt-4 font-serif text-2xl md:text-[1.7rem] leading-tight text-foreground whitespace-pre-line">
                 {b.title}
               </h3>
+              <div className="mt-5 h-px w-12 bg-bronze/70" />
               <p className="mt-5 text-base text-foreground/75 leading-relaxed">
                 {b.body}
               </p>
