@@ -1,4 +1,5 @@
 import rolledPlans from "@/assets/rolled-plans-image.png";
+import { useReveal } from "@/hooks/use-reveal";
 
 const blocks = [
   {
