@@ -36,7 +36,7 @@ export function Hero() {
           </p>
 
           <p className="mt-6 text-base md:text-lg text-white/80 max-w-[52ch] leading-relaxed font-light">
-            Strategic advisory for branded residences and premium residential developments across Central Europe, shaping positioning, concept clarity and commercial logic where they still influence outcomes.
+            Strategic advisory for branded residences and premium residential developments across Central Europe, helping developers and project owners align positioning, concept clarity and commercial logic before key decisions become expensive to change.
           </p>
 
           <div className="mt-8 md:mt-10">
