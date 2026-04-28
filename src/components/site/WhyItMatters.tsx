@@ -4,7 +4,7 @@ import { useReveal } from "@/hooks/use-reveal";
 export function WhyItMatters() {
   const ref = useReveal<HTMLDivElement>();
   return (
-    <section className="relative py-32 md:py-48 overflow-hidden">
+    <section id="clients" className="relative py-32 md:py-48 overflow-hidden">
       <img
         src={clientInterior}
         alt=""
