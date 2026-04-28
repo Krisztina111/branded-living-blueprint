@@ -21,6 +21,9 @@ export function Footer() {
             <a href="/privacy" className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors">
               Privacy Policy
             </a>
+            <a href="/imprint" className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors">
+              Legal Notice
+            </a>
             <a href="https://www.linkedin.com/in/krisztina-szabo-vedress/" target="_blank" rel="noreferrer" className="text-[0.72rem] tracking-[0.22em] uppercase text-foreground/80 hover:text-bronze transition-colors">
               LinkedIn
             </a>
