@@ -33,7 +33,18 @@ export const Route = createFileRoute("/")({
         content:
           "Strategic advisory for branded living, branded residences and premium residential projects across Central Europe.",
       },
-      { property: "og:type", content: "website" },
+      { property: "og:image", content: "https://brandedlivingce.com/og-image.jpg" },
+      { property: "og:image:width", content: "1216" },
+      { property: "og:image:height", content: "640" },
+      { property: "og:url", content: "https://brandedlivingce.com/" },
+      { name: "twitter:title", content: "Branded Living CE | Strategic Advisory" },
+      {
+        name: "twitter:description",
+        content:
+          "Strategic advisory for branded living, branded residences and premium residential projects across Central Europe.",
+      },
+      { name: "twitter:image", content: "https://brandedlivingce.com/og-image.jpg" },
+      { rel: "canonical", href: "https://brandedlivingce.com/" },
     ],
   }),
   component: Index,
