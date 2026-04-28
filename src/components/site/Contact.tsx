@@ -12,7 +12,7 @@ export function Contact() {
               className="eyebrow"
               style={{ color: "oklch(0.852 0.022 75)" }}
             >
-              Contact — 010
+              Contact — 008
             </span>
           </div>
           <div className="col-span-12 md:col-span-10">
@@ -20,15 +20,14 @@ export function Contact() {
               className="font-serif text-4xl md:text-6xl lg:text-[5rem] leading-[1.05] max-w-[22ch]"
               style={{ color: "oklch(0.957 0.012 84)" }}
             >
-              Let's discuss your project — before it becomes{" "}
-              <span className="italic" style={{ color: "oklch(0.685 0.085 55)" }}>fixed.</span>
+              Let's discuss <span className="italic" style={{ color: "oklch(0.685 0.085 55)" }}>your project.</span>
             </h2>
 
             <p
-              className="mt-12 text-lg md:text-xl max-w-[52ch] leading-relaxed font-light"
+              className="mt-12 text-lg md:text-xl max-w-[56ch] leading-relaxed font-light"
               style={{ color: "oklch(0.852 0.022 75)" }}
             >
-              For residential and branded living projects across Central Europe that need earlier clarity, stronger alignment and a more coherent market proposition.
+              For residential and branded living projects that need earlier clarity, stronger alignment and a more coherent market proposition.
             </p>
 
             <div className="mt-16 grid md:grid-cols-2 gap-10 max-w-2xl">
@@ -63,18 +62,6 @@ export function Contact() {
                 </a>
               </div>
             </div>
-
-            <a
-              href="mailto:hello@brandedlivingce.com"
-              className="mt-16 inline-flex items-center gap-3 px-8 py-4 text-[0.72rem] tracking-[0.22em] uppercase transition-colors"
-              style={{
-                backgroundColor: "oklch(0.957 0.012 84)",
-                color: "oklch(0.215 0.012 50)",
-              }}
-            >
-              Discuss your project
-              <span>→</span>
-            </a>
           </div>
         </div>
       </div>

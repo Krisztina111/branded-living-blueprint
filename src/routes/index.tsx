@@ -5,9 +5,7 @@ import { Perspective } from "@/components/site/Perspective";
 import { AdvisoryFocus } from "@/components/site/AdvisoryFocus";
 import { KeyBelief } from "@/components/site/KeyBelief";
 import { WhyItMatters } from "@/components/site/WhyItMatters";
-import { BrandedResidences } from "@/components/site/BrandedResidences";
 import { Europe } from "@/components/site/Europe";
-import { Clients } from "@/components/site/Clients";
 import { Founder } from "@/components/site/Founder";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
@@ -48,12 +46,10 @@ function Index() {
       <main>
         <Hero />
         <Perspective />
-        <AdvisoryFocus />
-        <KeyBelief />
-        <WhyItMatters />
-        <BrandedResidences />
         <Europe />
-        <Clients />
+        <WhyItMatters />
+        <KeyBelief />
+        <AdvisoryFocus />
         <Founder />
         <Contact />
       </main>
