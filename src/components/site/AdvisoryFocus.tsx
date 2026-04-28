@@ -18,7 +18,7 @@ const blocks = [
   },
   {
     no: "04",
-    title: "Residential Brand & Market Positioning",
+    title: "Residential Brand &\nMarket Positioning",
     body: "For premium residential and branded living projects that need a clear position in the market, a credible buyer narrative and a coherent brand language across naming, visual codes and sales materials, aligned with the architectural intent and the lifestyle the address is meant to deliver.",
   },
 ];
