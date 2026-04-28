@@ -21,7 +21,8 @@ export function Founder() {
           <div ref={ref} className="reveal md:col-span-7 md:pl-6 md:border-l md:border-bronze/40">
             <p className="eyebrow"><span className="text-bronze">06</span> &nbsp;—&nbsp; Founder</p>
             <h2 className="mt-6 font-serif text-4xl md:text-5xl lg:text-[3.6rem] leading-[1.05] text-foreground">
-              Krisztina <span className="italic text-bronze">Szabó-Vedress</span>
+              <span className="block">Krisztina</span>
+              <span className="block italic text-bronze whitespace-nowrap">Szabó&#8209;Vedress</span>
             </h2>
             <p className="mt-3 text-sm tracking-[0.2em] uppercase text-taupe">
               Founder &nbsp;|&nbsp; Strategic Advisor
