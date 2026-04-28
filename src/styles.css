@@ -49,14 +49,14 @@
 :root {
   --radius: 0.25rem;
 
-  /* Brand palette in oklch */
-  --background: oklch(0.957 0.012 84);        /* #F4F1EA warm ivory */
-  --foreground: oklch(0.215 0.012 50);        /* #1F1B18 espresso */
-  --clay: oklch(0.852 0.022 75);              /* #D8CEC0 muted clay */
-  --umber: oklch(0.265 0.014 45);             /* #2A211C dark umber */
-  --bronze: oklch(0.585 0.075 55);            /* #A66F4E oxidized bronze */
-  --taupe: oklch(0.498 0.011 60);             /* #6F6760 muted taupe */
-  --hairline: oklch(0.215 0.012 50 / 0.12);
+  /* Brand palette — cool minimal luxury, deep taupe + champagne gold */
+  --background: oklch(0.945 0.004 90);        /* cool soft ivory, less yellow */
+  --foreground: oklch(0.235 0.006 250);       /* deep cool charcoal-taupe */
+  --clay: oklch(0.82 0.008 250);              /* cool stone */
+  --umber: oklch(0.235 0.008 260);            /* deep cool taupe (replaces brown) */
+  --bronze: oklch(0.72 0.085 85);             /* champagne gold accent */
+  --taupe: oklch(0.5 0.008 260);              /* cool muted taupe */
+  --hairline: oklch(0.235 0.006 250 / 0.14);
 
   --card: oklch(0.957 0.012 84);
   --card-foreground: var(--foreground);

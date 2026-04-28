@@ -1,3 +1,5 @@
+import rolledPlans from "@/assets/rolled-plans-image.png";
+
 const blocks = [
   {
     no: "01",
@@ -14,39 +16,48 @@ const blocks = [
     title: "Ongoing Advisory Support",
     body: "For projects that need a more consistent thread as decisions move across teams, stages and disciplines.",
   },
+  {
+    no: "04",
+    title: "Branding Advisory",
+    body: "For projects that need a coherent residential brand language — positioning, naming, visual codes and buyer narrative aligned with the architectural and commercial intent.",
+  },
 ];
 
 export function AdvisoryFocus() {
   return (
-    <section id="work" className="py-24 md:py-40 bg-secondary/40">
-      <div className="mx-auto max-w-[1400px] px-6 md:px-12">
-        <span className="eyebrow">How we work — 006</span>
-        <h2 className="mt-6 font-serif text-3xl md:text-5xl lg:text-[3.4rem] leading-[1.08] text-foreground max-w-[26ch]">
-          A focused set of advisory formats for projects that need <span className="italic text-bronze">earlier clarity.</span>
-        </h2>
-        <p className="mt-8 text-lg text-foreground/80 max-w-[60ch] leading-relaxed">
-          For residential and branded living projects that need earlier clarity, stronger alignment and a more coherent market proposition.
-        </p>
+    <section id="work" className="relative py-32 md:py-48 overflow-hidden">
+      <img
+        src={rolledPlans}
+        alt=""
+        aria-hidden
+        className="absolute inset-0 w-full h-full object-cover opacity-30"
+        loading="lazy"
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/92 via-background/85 to-background/95" />
 
-        <div className="mt-16 md:mt-24 border-t border-foreground/20">
+      <div className="relative mx-auto max-w-[1400px] px-6 md:px-12">
+        <div className="max-w-[820px]">
+          <h2 className="font-serif text-4xl md:text-6xl lg:text-[4.2rem] leading-[1.05] text-foreground">
+            How we <span className="italic text-bronze">work.</span>
+          </h2>
+          <p className="mt-10 text-base md:text-lg text-foreground/80 max-w-[60ch] leading-relaxed">
+            A focused set of advisory formats for residential and branded living projects that need earlier clarity, stronger alignment and a more coherent market proposition.
+          </p>
+        </div>
+
+        <div className="mt-16 md:mt-20 grid md:grid-cols-2 gap-6 md:gap-8">
           {blocks.map((b) => (
             <article
               key={b.no}
-              className="grid grid-cols-12 gap-6 md:gap-12 py-10 md:py-14 border-b border-foreground/20 group hover:bg-background/40 transition-colors"
+              className="group relative p-8 md:p-10 border border-foreground/15 bg-background/70 backdrop-blur-sm hover:border-bronze/60 transition-colors"
             >
-              <div className="col-span-2 md:col-span-1">
-                <span className="font-serif italic text-2xl text-bronze">{b.no}</span>
-              </div>
-              <div className="col-span-10 md:col-span-5">
-                <h3 className="font-serif text-2xl md:text-[2rem] leading-tight text-foreground">
-                  {b.title}
-                </h3>
-              </div>
-              <div className="col-span-12 md:col-span-6">
-                <p className="text-base md:text-lg text-foreground/75 leading-relaxed max-w-[48ch]">
-                  {b.body}
-                </p>
-              </div>
+              <span className="font-serif italic text-bronze text-sm tracking-widest">{b.no}</span>
+              <h3 className="mt-4 font-serif text-2xl md:text-[1.7rem] leading-tight text-foreground">
+                {b.title}
+              </h3>
+              <p className="mt-5 text-base text-foreground/75 leading-relaxed">
+                {b.body}
+              </p>
             </article>
           ))}
         </div>
