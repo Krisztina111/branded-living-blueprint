@@ -38,7 +38,7 @@ export function AdvisoryFocus() {
       <div className="absolute inset-0 bg-gradient-to-b from-background/75 via-background/65 to-background/80" />
 
       <div className="relative mx-auto max-w-[1400px] px-6 md:px-12">
-        <div className="max-w-[820px]">
+        <div ref={headRef} className="reveal max-w-[820px]">
           <p className="eyebrow"><span className="text-bronze">05</span> &nbsp;—&nbsp; Approach</p>
           <h2 className="mt-6 font-serif text-4xl md:text-6xl lg:text-[4.2rem] leading-[1.05] text-foreground">
             How we <span className="italic text-bronze">work.</span>
