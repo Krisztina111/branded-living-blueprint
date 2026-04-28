@@ -15,12 +15,12 @@ export function Header() {
         <a href="#top" className="wordmark text-foreground shrink-0">
           Branded Living <span className="text-bronze">CE</span>
         </a>
-        <nav className="hidden lg:flex items-center gap-7">
+        <nav className="hidden md:flex items-center gap-5 lg:gap-7 flex-wrap">
           {nav.map((item) => (
             <a
               key={item.label}
               href={item.href}
-              className="text-[0.72rem] tracking-[0.18em] uppercase text-foreground/80 hover:text-bronze transition-colors"
+              className="text-[0.7rem] tracking-[0.16em] uppercase text-foreground/80 hover:text-bronze transition-colors whitespace-nowrap"
             >
               {item.label}
             </a>
