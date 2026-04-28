@@ -3,7 +3,7 @@ export function Contact() {
     <section
       id="contact"
       className="py-32 md:py-48"
-      style={{ backgroundColor: "oklch(0.265 0.014 45)" }}
+      style={{ backgroundColor: "oklch(0.16 0.006 260)" }}
     >
       <div className="mx-auto max-w-[1400px] px-6 md:px-12">
         <div className="grid grid-cols-12 gap-8 md:gap-12">
