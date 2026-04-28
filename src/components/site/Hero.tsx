@@ -28,7 +28,7 @@ export function Hero() {
 
           <h1 className="font-serif text-[2.6rem] sm:text-[3.4rem] md:text-[4.2rem] lg:text-[4.8rem] leading-[1.02] tracking-[-0.015em] text-white max-w-[20ch]">
             Every strong project starts with a{" "}
-            <span className="italic text-bronze">clear thread.</span>
+            <span className="italic font-semibold text-bronze">clear thread.</span>
           </h1>
 
           <p className="mt-10 font-serif italic text-xl md:text-2xl text-white/90 max-w-[44ch] leading-snug">

@@ -2,34 +2,48 @@ import ceAerial from "@/assets/ce-aerial-image.jpg";
 
 export function Europe() {
   return (
-    <section className="py-24 md:py-40 bg-secondary/40">
-      <div className="mx-auto max-w-[1400px] px-6 md:px-12">
-        <div className="max-w-[900px]">
-          <h2 className="font-serif text-3xl md:text-5xl lg:text-[3.4rem] leading-[1.1] text-foreground max-w-[22ch]">
+    <section
+      id="europe"
+      className="relative py-32 md:py-48 overflow-hidden"
+      style={{ backgroundColor: "oklch(0.18 0.006 260)" }}
+    >
+      <img
+        src={ceAerial}
+        alt=""
+        aria-hidden
+        className="absolute inset-0 w-full h-full object-cover opacity-40"
+        loading="lazy"
+      />
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "linear-gradient(90deg, oklch(0.18 0.006 260 / 0.92) 0%, oklch(0.18 0.006 260 / 0.55) 60%, oklch(0.18 0.006 260 / 0.35) 100%)",
+        }}
+      />
+
+      <div className="relative mx-auto max-w-[1400px] px-6 md:px-12">
+        <div className="md:ml-auto md:max-w-[640px]">
+          <h2
+            className="font-serif text-4xl md:text-6xl lg:text-[4rem] leading-[1.05]"
+            style={{ color: "oklch(0.945 0.004 90)" }}
+          >
             The Central Europe <span className="italic text-bronze">opportunity.</span>
           </h2>
 
-          <p className="mt-10 text-lg md:text-xl text-foreground/85 leading-relaxed max-w-[56ch]">
+          <p className="mt-10 text-lg md:text-xl leading-relaxed max-w-[52ch]" style={{ color: "oklch(0.92 0.004 90 / 0.9)" }}>
             Central Europe is still an emerging branded residential landscape.
           </p>
-          <p className="mt-5 text-base md:text-lg text-foreground/80 leading-relaxed max-w-[56ch]">
+          <p className="mt-5 text-base md:text-lg leading-relaxed max-w-[52ch]" style={{ color: "oklch(0.92 0.004 90 / 0.78)" }}>
             The opportunity is not simply to import hospitality logic into housing, but to shape stronger residential propositions with clearer positioning, more disciplined alignment and, where relevant, service standards informed by hospitality.
           </p>
-          <p className="mt-5 text-base md:text-lg text-foreground/80 leading-relaxed max-w-[56ch]">
+          <p className="mt-5 text-base md:text-lg leading-relaxed max-w-[52ch]" style={{ color: "oklch(0.92 0.004 90 / 0.78)" }}>
             That makes the region especially sensitive to clarity. In markets where the branded residential language is still evolving, coherence matters even more.
           </p>
-          <p className="mt-8 font-serif italic text-2xl md:text-3xl text-foreground leading-snug">
-            Not as decoration. <span className="text-bronze">As structure.</span>
+          <p className="mt-10 font-serif text-2xl md:text-3xl leading-snug" style={{ color: "oklch(0.945 0.004 90)" }}>
+            Not as decoration.<br />
+            <span className="font-semibold italic text-bronze">As structure.</span>
           </p>
-        </div>
-
-        <div className="mt-14 md:mt-20 overflow-hidden">
-          <img
-            src={ceAerial}
-            alt="Central European cityscape aerial view"
-            className="w-full aspect-[16/9] md:aspect-[21/9] object-cover"
-            loading="lazy"
-          />
         </div>
       </div>
     </section>
