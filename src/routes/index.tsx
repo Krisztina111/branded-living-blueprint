@@ -20,7 +20,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Strategic advisory for branded living, branded residences and premium residential projects across Central Europe — earlier clarity, stronger alignment, more coherent market propositions.",
+          "Strategic advisory for branded living, branded residences and premium residential projects across Central Europe, earlier clarity, stronger alignment, more coherent market propositions.",
       },
       {
         name: "keywords",

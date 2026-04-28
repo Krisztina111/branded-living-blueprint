@@ -4,7 +4,7 @@ export function BrandedResidences() {
       <div className="mx-auto max-w-[1400px] px-6 md:px-12">
         <div className="grid grid-cols-12 gap-8 md:gap-12 items-start">
           <div className="col-span-12 md:col-span-5">
-            <span className="eyebrow">Branded Residences — 006</span>
+            <span className="eyebrow">Branded Residences, 006</span>
             <h2 className="mt-8 font-serif text-3xl md:text-5xl leading-[1.08] text-foreground">
               A name opens attention.{" "}
               <span className="italic text-bronze">It cannot carry the project alone.</span>
@@ -19,7 +19,7 @@ export function BrandedResidences() {
               Into the residential product. Into the service model. Into the buyer experience. Into long-term governance. With enough credibility to outlast the launch campaign.
             </p>
             <p className="mt-6 text-base md:text-lg text-foreground/80 leading-relaxed max-w-[56ch]">
-              In European markets, the strongest opportunities rarely come from spectacle. They come from trust, coherence and intelligent translation — quietly engineered, early.
+              In European markets, the strongest opportunities rarely come from spectacle. They come from trust, coherence and intelligent translation, quietly engineered, early.
             </p>
           </div>
         </div>

@@ -27,7 +27,7 @@ export function Footer() {
 
         <div className="mt-16 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-3">
           <span className="text-xs text-taupe">© {new Date().getFullYear()} Branded Living CE. All rights reserved.</span>
-          <span className="text-xs text-taupe italic font-serif">— a coherent thread</span>
+          <span className="text-xs text-taupe italic font-serif">, a coherent thread</span>
         </div>
       </div>
     </footer>

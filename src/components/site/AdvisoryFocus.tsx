@@ -19,7 +19,7 @@ const blocks = [
   {
     no: "04",
     title: "Branding Advisory",
-    body: "For projects that need a coherent residential brand language — positioning, naming, visual codes and buyer narrative aligned with the architectural and commercial intent.",
+    body: "For projects that need a coherent residential brand language, positioning, naming, visual codes and buyer narrative aligned with the architectural and commercial intent.",
   },
 ];
 
