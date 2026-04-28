@@ -27,7 +27,10 @@ export function Perspective() {
           <p className="mt-5 text-base md:text-lg text-foreground/80 leading-relaxed max-w-[52ch]">
             They become stronger when the underlying logic is clear early enough — what the project stands for, who it is for, what kind of experience it promises, and which decisions need to hold together across disciplines.
           </p>
-          <p className="mt-6 font-serif font-semibold italic text-2xl md:text-3xl text-foreground">
+          <p
+            className="mt-6 font-serif font-semibold italic text-2xl md:text-3xl text-foreground"
+            style={{ letterSpacing: "0.04em", wordSpacing: "0.12em" }}
+          >
             That is where we work.
           </p>
           <p className="mt-6 text-base md:text-lg text-foreground/80 leading-relaxed max-w-[52ch]">

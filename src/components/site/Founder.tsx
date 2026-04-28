@@ -34,8 +34,8 @@ export function Founder() {
               Today, that perspective is applied to residential and branded living projects that need clarity early.
             </p>
 
-            <p className="mt-10 font-serif font-semibold text-2xl md:text-3xl text-foreground max-w-[36ch] leading-snug">
-              Clarity of concept, clarity of intent and <span className="text-bronze italic">clarity of value.</span>
+            <p className="mt-10 font-serif font-semibold text-2xl md:text-3xl text-foreground max-w-[40ch] leading-snug">
+              Clarity of concept, clarity of intent and <span className="text-bronze italic text-3xl md:text-4xl">clarity of value.</span>
             </p>
           </div>
         </div>
