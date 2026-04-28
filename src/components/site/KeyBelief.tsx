@@ -1,6 +1,8 @@
 import callThread from "@/assets/call-thread-phone.jpg";
+import { useReveal } from "@/hooks/use-reveal";
 
 export function KeyBelief() {
+  const ref = useReveal<HTMLDivElement>();
   return (
     <section
       id="value"
