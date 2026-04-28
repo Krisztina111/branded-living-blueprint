@@ -28,10 +28,10 @@ export function Hero() {
 
           <h1 className="font-serif text-[2.4rem] sm:text-[3.2rem] md:text-[4rem] lg:text-[4.6rem] leading-[1.04] tracking-[-0.015em] text-white max-w-[20ch]">
             Every strong project starts with a{" "}
-            <span className="italic font-medium text-bronze">clear thread.</span>
+            <span className="font-medium text-bronze">clear thread.</span>
           </h1>
 
-          <p className="mt-8 font-serif italic text-3xl md:text-5xl lg:text-[3.4rem] text-bronze max-w-[44ch] leading-[1.05]">
+          <p className="mt-8 font-serif text-3xl md:text-5xl lg:text-[3.4rem] text-white max-w-[44ch] leading-[1.05]">
             Coherence creates value.
           </p>
 
