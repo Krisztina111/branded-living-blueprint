@@ -1,4 +1,7 @@
+import { useReveal } from "@/hooks/use-reveal";
+
 export function Contact() {
+  const ref = useReveal<HTMLDivElement>();
   return (
     <section
       id="contact"
