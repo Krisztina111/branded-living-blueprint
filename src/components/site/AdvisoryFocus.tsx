@@ -30,10 +30,10 @@ export function AdvisoryFocus() {
         src={rolledPlans}
         alt=""
         aria-hidden
-        className="absolute inset-0 w-full h-full object-cover opacity-30"
+        className="absolute inset-0 w-full h-full object-cover opacity-55"
         loading="lazy"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/92 via-background/85 to-background/95" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/75 via-background/65 to-background/80" />
 
       <div className="relative mx-auto max-w-[1400px] px-6 md:px-12">
         <div className="max-w-[820px]">
