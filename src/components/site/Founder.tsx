@@ -21,7 +21,7 @@ export function Founder() {
               Krisztina <span className="italic text-bronze">Szabó-Vedress</span>
             </h2>
             <p className="mt-3 text-sm tracking-[0.2em] uppercase text-taupe">
-              Founder &nbsp;|&nbsp; Strategic Advisory
+              Founder &nbsp;|&nbsp; Strategic Advisor
             </p>
 
             <p className="mt-10 text-lg md:text-xl text-foreground/85 leading-relaxed max-w-[56ch]">
