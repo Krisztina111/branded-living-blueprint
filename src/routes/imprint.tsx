@@ -3,11 +3,11 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/imprint")({
   head: () => ({
     meta: [
-      { title: "Legal Notice / Imprint | Branded Living CE" },
+      { title: "Legal Notice | Branded Living CE" },
       {
         name: "description",
         content:
-          "Legal Notice / Imprint for Branded Living CE. Provider identification and contact details in line with EU disclosure requirements.",
+          "Legal Notice for Branded Living CE. Provider identification, registered address and contact details.",
       },
       { name: "robots", content: "index, follow" },
     ],
@@ -16,7 +16,7 @@ export const Route = createFileRoute("/imprint")({
 });
 
 function ImprintPage() {
-  // EDITABLE PLACEHOLDER — final legal content to be reviewed and confirmed separately.
+  // Editable placeholder — content can be reviewed and updated by a legal professional later.
   const updated = "28 April 2026";
 
   return (
@@ -45,19 +45,22 @@ function ImprintPage() {
         <div className="mt-12 space-y-10 text-foreground/85 leading-relaxed text-base md:text-lg font-light">
           <section>
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-3">Provider</h2>
-            <p>
-              Krisztina Szabó-Vedress, sole proprietor, trading as Branded Living CE.
-            </p>
-            <p className="mt-2 text-sm text-taupe italic">
-              [PLACEHOLDER — confirm legal trading name and entity form before launch.]
-            </p>
+            <p>Szabó-Vedress Krisztina e.v.</p>
           </section>
 
           <section>
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-3">Registered address</h2>
-            <p className="text-sm text-taupe italic">
-              [PLACEHOLDER — full postal address to be inserted here.]
-            </p>
+            <p>1032 Budapest, Bécsi út 185, Hungary</p>
+          </section>
+
+          <section>
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-3">Tax number</h2>
+            <p>67317152-1-41</p>
+          </section>
+
+          <section>
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-3">Represented by</h2>
+            <p>Szabó-Vedress Krisztina</p>
           </section>
 
           <section>
@@ -76,26 +79,35 @@ function ImprintPage() {
           </section>
 
           <section>
-            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-3">
-              Registration and tax identification
-            </h2>
-            <p className="text-sm text-taupe italic">
-              [PLACEHOLDER — sole proprietor registration number, tax number / VAT ID to be inserted here.]
+            <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-3">Online</h2>
+            <p>
+              Website:{" "}
+              <a href="https://brandedlivingce.com" className="text-bronze hover:underline">
+                brandedlivingce.com
+              </a>
+              <br />
+              LinkedIn:{" "}
+              <a
+                href="https://www.linkedin.com/in/krisztina-szabo-vedress/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-bronze hover:underline"
+              >
+                linkedin.com/in/krisztina-szabo-vedress
+              </a>
             </p>
           </section>
 
           <section>
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-3">Responsible for content</h2>
-            <p>Krisztina Szabó-Vedress.</p>
+            <p>Szabó-Vedress Krisztina.</p>
           </section>
 
           <section>
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-3">Disclaimer</h2>
             <p>
               Content on this website is provided for general informational purposes regarding strategic advisory
-              services and does not constitute legal, financial or investment advice. While care is taken to keep the
-              information accurate and up to date, no warranty, express or implied, is given as to its completeness or
-              fitness for any particular purpose.
+              services and does not constitute legal, financial or investment advice.
             </p>
           </section>
 
@@ -103,7 +115,7 @@ function ImprintPage() {
             <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-3">Copyright</h2>
             <p>
               All content, layout, branding, photography and texts on this website are protected by copyright and may
-              not be reproduced, distributed or used without prior written consent.
+              not be reproduced or used without prior written consent.
             </p>
           </section>
         </div>
